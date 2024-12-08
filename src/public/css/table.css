@@ -1,0 +1,31 @@
+:root {
+    --dark_blue: #013968;
+    --light_blue: #00a5e0;
+    --white: #ffffff;
+    --black: #000000;
+    --grey: #a3a3a3;
+    --one_grey: #e9ebec;
+}
+
+.bg-grey {
+    background-color: var(--grey);
+    color: var(--white);
+}
+
+.bg-row-1 {
+    color: var(--black);
+}
+
+.bg-row-2 {
+    background-color: var(--one_grey);
+    color: var(--black);
+}
+
+
+.col-1 {width: 5%;}
+
+.col-2 {width: 40%;}
+
+.col-3 {width: 12%;}
+
+.col-4 {width: 6%;}

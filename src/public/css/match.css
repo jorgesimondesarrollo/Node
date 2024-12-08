@@ -1,0 +1,15 @@
+:root {
+    --grey-match: #e6e2e2;
+}
+
+.bg-grey-match {
+    background-color: var(--grey-match);
+}
+
+.width-40 {
+    width: 40%;
+}
+
+.width-20 {
+    width: 20%;
+}

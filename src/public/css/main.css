@@ -1,0 +1,39 @@
+/*  Colores corporativos
+Azul oscuro: #013968
+Azul claro: #00a5e0
+Blanco: #ffffff
+Negro: #000000
+*/
+
+:root {
+    --dark_blue: #013968;
+    --light_blue: #00a5e0;
+    --white: #ffffff;
+    --black: #000000;
+    --grey: #a3a3a3;
+}
+
+.bg-dark-blue {
+    background-color: var(--dark_blue);
+}
+
+.btn-over {
+    cursor: pointer;
+}
+
+.back-opacity {
+    position: relative;
+    color: var(--black);
+}
+
+.back-opacity::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--light_blue);
+    opacity: 0.2;
+    z-index: -1; /* Coloca el fondo detrás del contenido */
+}
