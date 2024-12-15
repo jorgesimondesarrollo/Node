@@ -16,7 +16,7 @@
 	<script 
 	src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
 	integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="/js/main.js"></script>
+	<script type="text/javascript" src="/js/nav.js"></script>
 	<script src="https://kit.fontawesome.com/cf223a9f05.js" crossorigin="anonymous"></script>
 
 	<!-- DataTables >
@@ -24,14 +24,14 @@
 	<link rel="stylesheet" href="https://cdn.datatables.net/2.1.8/css/dataTables.dataTables.css" />
 	<script src="https://cdn.datatables.net/2.1.8/js/dataTables.js"></script -->
 
-	<title>Mi primera pagina</title>
+	<title>Inicio</title>
 </head>
 <body>
 	<%- include('../headers/head-main') %>
 	<nav class="w-100 p-2 back-opacity">
 		<div class="d-flex mb-3">
-			<div class="p-2 btn-over">Clasificación</div>
-			<div class="p-2 btn-over">Calendario</div>
+			<div class="p-2 btn-over" id="go-to-clasificacion">Clasificación</div>
+			<div class="p-2 btn-over" id="go-to-calendar">Calendario</div>
 			<div class="ms-auto shadow-sm bg-body-tertiary rounded p-2">
 				<div class="btn-over">Ranking/Estadísticas</div>
 			</div>
@@ -43,14 +43,14 @@
 				<table class="w-75">
 					<thead>
 						<tr class="bg-grey">
-							<th class="col-1 border border-0 rounded-start">Pos</th>
-							<th class="col-2">Equipo</th>
-							<th class="col-3">Pts</th>
-							<th class="col-3">PJ</th>
-							<th class="col-4 border border-0 rounded-end">(-)</th>
+							<th class="col-05 border border-0 rounded-start">Pos</th>
+							<th class="col-40">Equipo</th>
+							<th class="col-12">Pts</th>
+							<th class="col-12">PJ</th>
+							<th class="col-06 border border-0 rounded-end">(-)</th>
 						</tr>
 					</thead>
-					<tbody class="m-5">
+					<tbody>
 						<tr class="bg-row-1">
 							<td class="border border-0 rounded-start">1</td>
 							<td>Cofrades Jr FS</td>

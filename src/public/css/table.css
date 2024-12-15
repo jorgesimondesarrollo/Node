@@ -22,10 +22,11 @@
 }
 
 
-.col-1 {width: 5%;}
+.col-04 {width: 4%;}
+.col-05 {width: 5%;}
+.col-06 {width: 6%;}
+.col-12 {width: 12%;}
+.col-13 {width: 13%;}
+.col-25 {width: 25%;}
+.col-40 {width: 40%;}
 
-.col-2 {width: 40%;}
-
-.col-3 {width: 12%;}
-
-.col-4 {width: 6%;}

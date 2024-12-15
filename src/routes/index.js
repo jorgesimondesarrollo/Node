@@ -1,9 +1,11 @@
-import {Router} from 'express'
-import { index } from '../controllers/index.js';
+import { Router } from "express";
+import menu from "../controllers/index.js";
 
-const router = Router()
+const router = Router();
 
-//router.get('/', )
-router.get('/', index)
+router.get("/", menu.index);
 
-export default router
+router.get('/clasificacion', menu.clasificacion)
+router.get('/calendar', menu.calendar)
+
+export default router;
